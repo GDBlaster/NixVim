@@ -1,0 +1,5 @@
+{
+  plugins.lf = {
+    enable = true;
+  };
+}
