@@ -7,6 +7,7 @@
     ./modules/lf.nix
     ./modules/numbertoggle.nix
     ./modules/oil.nix
+    ./modules/treesitter.nix
   ];
 
   opts = {
