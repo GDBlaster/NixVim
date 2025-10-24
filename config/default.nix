@@ -6,6 +6,7 @@
     ./modules/lsp.nix
     ./modules/lf.nix
     ./modules/numbertoggle.nix
+    ./modules/oil.nix
   ];
 
   opts = {
