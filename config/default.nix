@@ -8,6 +8,7 @@
     ./modules/numbertoggle.nix
     ./modules/oil.nix
     ./modules/treesitter.nix
+    ./modules/tree.nix
   ];
 
   opts = {
