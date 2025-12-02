@@ -4,6 +4,7 @@
     ./modules/bufferline.nix
     ./modules/lualine.nix
     ./modules/lsp.nix
+    ./modules/conform.nix
     ./modules/lf.nix
     ./modules/numbertoggle.nix
     ./modules/oil.nix
