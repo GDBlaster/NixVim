@@ -10,6 +10,7 @@
     ./modules/oil.nix
     ./modules/treesitter.nix
     ./modules/tree.nix
+    ./modules/indent-blankline.nix
   ];
 
   opts = {
