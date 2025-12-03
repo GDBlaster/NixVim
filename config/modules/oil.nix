@@ -1,5 +1,5 @@
 {
-    plugins.oil = {
-	enable = true;
-    };
+  plugins.oil = {
+    enable = true;
+  };
 }

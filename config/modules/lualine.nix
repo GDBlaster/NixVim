@@ -5,7 +5,7 @@
       options = {
         ignore_focus = [ "NvimTree" ];
       };
-      extensions = ["nvim-tree"];
+      extensions = [ "nvim-tree" ];
     };
-  };        
-} 
+  };
+}
