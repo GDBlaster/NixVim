@@ -11,11 +11,12 @@
     ./modules/treesitter.nix
     ./modules/tree.nix
     ./modules/indent-blankline.nix
+    ./modules/git.nix
   ];
 
   opts = {
     number = true;
 
-    shiftwidth = 4;
+    shiftwidth = 2;
   };
 }
