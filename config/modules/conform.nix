@@ -13,8 +13,7 @@
         nix = [ "nixfmt" ];
         cpp = [ "clang_format" ];
         javascript = {
-          __unkeyed-1 = "prettierd";
-          __unkeyed-2 = "prettier";
+          __unkeyed = "prettier";
           timeout_ms = 2000;
           stop_after_first = true;
         };
@@ -23,6 +22,7 @@
           "trim_whitespace"
           "trim_newlines"
         ];
+        html = [ "prettier" ];
       };
 
       format_on_save = {
@@ -45,6 +45,9 @@
         };
         squeeze_blanks = {
           command = lib.getExe' pkgs.coreutils "cat";
+        };
+        prettier = {
+          command = lib.getExe pkgs.prettier;
         };
       };
     };
