@@ -17,12 +17,14 @@
           timeout_ms = 2000;
           stop_after_first = true;
         };
+        html = [ "prettier" ];
+        css = [ "prettier" ];
+        yaml = [ "prettier" ];
         "_" = [
           "squeeze_blanks"
           "trim_whitespace"
           "trim_newlines"
         ];
-        html = [ "prettier" ];
       };
 
       format_on_save = {
