@@ -13,6 +13,7 @@
     ./modules/indent-blankline.nix
     ./modules/git.nix
     ./modules/precognition.nix
+    ./modules/smear.nix
   ];
 
   opts = {
