@@ -14,6 +14,7 @@
     ./modules/git.nix
     ./modules/precognition.nix
     ./modules/smear.nix
+    ./modules/autopairs.nix
   ];
 
   opts = {
