@@ -12,6 +12,7 @@
     ./modules/tree.nix
     ./modules/indent-blankline.nix
     ./modules/git.nix
+    ./modules/precognition.nix
   ];
 
   opts = {
