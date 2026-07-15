@@ -17,6 +17,12 @@
           timeout_ms = 2000;
           stop_after_first = true;
         };
+        typescript = {
+          __unkeyed = "prettier";
+          timeout_ms = 2000;
+          stop_after_first = true;
+        };
+        json = [ "prettier" ];
         html = [ "prettier" ];
         css = [ "prettier" ];
         yaml = [ "prettier" ];
