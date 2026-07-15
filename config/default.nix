@@ -15,6 +15,7 @@
     ./modules/precognition.nix
     ./modules/smear.nix
     ./modules/autopairs.nix
+    ./modules/cmp.nix
   ];
 
   opts = {
