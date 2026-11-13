@@ -57,6 +57,9 @@
         prettier = {
           command = lib.getExe pkgs.prettier;
         };
+        rustfmt = {
+          command = lib.getExe pkgs.rustfmt;
+        };
       };
     };
   };
